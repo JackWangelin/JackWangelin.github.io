@@ -71,6 +71,56 @@ a.header {
 
 /* End Link Styling */
 /*landing page content styling aka giant, angled text.*/
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 400px) and (max-width: 768px), { 
+div.land-padding {
+    /*border: solid;
+    border-color: black;
+    border-width: 5px;*/
+    padding-bottom: 10px;
+    z-index: -1;
+}
+div.land {
+    font-family: neuehaasunicapro-xblack;
+    font-size: 48pt;
+    font-weight:900;
+    z-index: -1;
+}
+div.rotate {
+    position: relative;
+    top: 0px;
+   text-align: center;
+     -webkit-transform: rotate(0deg); 
+    transform: rotate(0deg);
+    z-index: -1;
+}
+}
+@media (min-width: 769px) {
+    iv.land-padding {
+    /*border: solid;
+    border-color: black;
+    border-width: 5px;*/
+    padding-bottom: 40px;
+    z-index: -1;
+}
+div.land {
+    font-family: neuehaasunicapro-xblack;
+    font-size: 107pt;
+    font-weight:900;
+    z-index: -1;
+}
+div.rotate {
+    text-align: inherit;
+    position: relative;
+    top: -150px;
+    left: 200px;
+    
+     -webkit-transform: rotate(-25deg); 
+    transform: rotate(-25deg);
+    z-index: -1;
+}
+}
+@media (min-width: 1200px) {
 div.land-padding {
     /*border: solid;
     border-color: black;
@@ -85,16 +135,23 @@ div.land {
     z-index: -1;
 }
 div.rotate {
+    text-align: inherit;
     position: relative;
     top: -150px;
     left: 200px;
+    
      -webkit-transform: rotate(-25deg); 
     transform: rotate(-25deg);
     z-index: -1;
 }
+}
 /*END landing page content style*/
 
-/*Need to add in @media for viewport size to change around the positioning etc.*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+
 ul.menu {
     list-style-type: none;
     padding: 5px;
