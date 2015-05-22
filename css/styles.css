@@ -29,7 +29,7 @@ body {
     font-family:neuehaasunicapro-thin;
     height: 100%;
     overflow: hidden;
-    padding-bottom: 80px;
+    padding-bottom: 180px;
 
 }
 html,body.home {
@@ -96,7 +96,7 @@ div.rotate {
 }
 }
 @media (min-width: 769px) {
-    iv.land-padding {
+    div.land-padding {
     /*border: solid;
     border-color: black;
     border-width: 5px;*/
@@ -135,7 +135,6 @@ div.land {
     z-index: -1;
 }
 div.rotate {
-    text-align: inherit;
     position: relative;
     top: -150px;
     left: 200px;
