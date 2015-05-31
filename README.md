@@ -1,6 +1,6 @@
 # What is this project?
 
-This is my first & working version of my personal portfolio site. It is also encompassed by my first proper introduction to Github as a useful tool. Previously, I had only tangential use, & looked in on updates from other people via the webportal. 
+This is my first & working version of my personal portfolio site. It is also encompassed by my first proper introduction to Github as a useful tool. Previously, I had only used GitHub tangentially & looked in on updates from other people via the webportal. 
 
 ## Items of interest
 -A CSS only menu drawer
