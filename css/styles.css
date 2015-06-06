@@ -1,11 +1,11 @@
 @font-face {
     font-family:'neuehaasunicapro-thin';
-    src:url(/fonts/neuehaasunicapro-thin.ttf) format("truetype");
+    src:url(../css/fonts/neuehaasunicapro-thin.ttf) format("truetype");
     font-weight:thin;
 }
 @font-face {
     font-family:'neuehaasunicapro-xblack';
-    src: url(/fonts/neuehaasunicapro-xblack.ttf) format("truetype");
+    src: url(../css/fonts/neuehaasunicapro-xblack.ttf) format("truetype");
     font-weight:900;
 }
 * {
