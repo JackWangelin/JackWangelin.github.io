@@ -27,7 +27,7 @@
 
 'use strict';
 
-var DEFAULT_URL = './images/Jack_Wangelin_Resume.pdf';
+var DEFAULT_URL = 'Users/ThePhilosofyzr/Documents/General Ass/UXDI/Project 4/web-dev/jacksite/JackWangelin.github.io/images/Jack_Wangelin_Resume';
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
 var MAX_SCALE = 10.0;
