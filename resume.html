@@ -428,23 +428,32 @@
 </div>
     
 <!--script area-->
-
 <script>
-        PDFJS.getDocument('/images/Jack_Wangelin_Resume.pdf').then(function(pdf) {
-var scale = 1.5;
-var viewport = page.getViewport(scale);
+PDFJS.getDocument('/Users/ThePhilosofyzr/Documents/General Ass/UXDI/Project 4/web-dev/jacksite/JackWangelin.github.io/images/Jack_Wangelin_Resume').then(function(pdf) {
+  // Using promise to fetch the page
+  pdf.getPage(1).then(function(page) {
+    var scale = 1.5;
+    var viewport = page.getViewport(scale);
 
-var canvas = document.getElementById('the-canvas');
-var context = canvas.getContext('2d');
-canvas.height = viewport.height;
-canvas.width = viewport.width;
+    //
+    // Prepare canvas using PDF page dimensions
+    //
+    var canvas = document.getElementById('the-canvas');
+    var context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
 
-var renderContext = {
-  canvasContext: context,
-  viewport: viewport
-};
-page.render(renderContext);});
-    </script>
+    //
+    // Render PDF page into canvas context
+    //
+    var renderContext = {
+      canvasContext: context,
+      viewport: viewport
+    };
+    page.render(renderContext);
+  });
+});
+</script>
 
 
     <script>
